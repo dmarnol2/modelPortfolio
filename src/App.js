@@ -3,6 +3,7 @@ import { Container, Button,
         Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText
       } from 'reactstrap';
 import Navi from './components/Navbar';
+import Footer from './components/Footer'
 import {Grid, Row, Col} from 'react-flexbox-grid';
 import logo from './logo.svg';
 import './App.css';
@@ -32,6 +33,7 @@ class App extends Component {
       
         
         <Navi></Navi>
+        <Footer></Footer>
       </div>
     );
   }
