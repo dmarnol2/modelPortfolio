@@ -1,5 +1,57 @@
+@font-face {font-family: "MarzoW00-Regular";
+  src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot");
+  src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.svg#MarzoW00-Regular") format("svg");
+}
+
+.parallaxContainer{
+  width:100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding-bottom: 75px;
+}
+
+.parallax{
+  background: url("./images/female-portrait-2310553_1920.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:485px;
+  padding-top:100px;
+}
+
+.name{
+  font-family: "MarzoW00-Regular", fantasy;
+  letter-spacing: .08em;
+  font-size: 80px;
+  color: whitesmoke;
+  padding-left: 50px;
+}
+
+.Site{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.Site-content{
+  flex: 1 0 auto;
+}
+
+
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 1em;
+  margin: 1em;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .App-logo {
