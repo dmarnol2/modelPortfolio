@@ -7,6 +7,31 @@
   url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.svg#MarzoW00-Regular") format("svg");
 }
 
+.scroll-wrap{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+}
+
+.scroll-wrap-flexbox{
+  display: block;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card2{
+  /* display: inline-block; */
+  display: inline-block;
+  padding-left: 10px;
+  width: 350px;
+}
+
+card3{
+  flex: 0 0 auto;
+  padding-left: 10px;
+}
+
 .parallaxContainer{
   width:100%;
   max-width: 100%;
