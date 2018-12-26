@@ -36,10 +36,10 @@ class App extends Component {
           <div className = "parallax">
             <Grid fluid>
               <Row>
-                <Col xs={5} md={5} lg={5}><h2 className="name">Misha</h2></Col>
+                <Col xs={5} md={5} lg={5}><h2 className="name">Meredith</h2></Col>
               </Row>
               <Row>
-                <Col xs={5} md={5} lg={5}><h2 className="name">Kuznetsov</h2></Col>
+                <Col xs={5} md={5} lg={5}><h2 className="name">King</h2></Col>
               </Row>
             </Grid>
 
