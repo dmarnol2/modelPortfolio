@@ -1,3 +1,62 @@
+.main {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+
+.image {
+  height: 350px;
+  width: 350px;
+  font-size: 25px;
+  background: whitesmoke;
+  margin: 10px;
+  display: inline-block;
+  line-height: 100px; 
+}
+
+
+.image-container {
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 88%;
+  padding-bottom: 25px;
+}
+
+.prev, .next {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  cursor: pointer;
+  color: black;
+  transition: 0.6s ease;
+}
+
+.next {
+  margin-left: 10px;
+}
+
+.prev {
+  margin-right: 10px;
+}
+
+.prev:hover, .next:hover {
+  color: white;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
 @font-face {font-family: "MarzoW00-Regular";
   src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot");
   src: url("//db.onlinewebfonts.com/t/1e6ec96c95301fa73aa1d026f161a269.eot?#iefix") format("embedded-opentype"),
