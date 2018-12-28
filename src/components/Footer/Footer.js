@@ -16,7 +16,7 @@ class Footer extends Component{
 
         var {SocialIcon} = require('react-social-icons');
         return(
-            <div>
+            <div class="footer">
                 <Navbar className="navbar-light" expand="md" fixed={"bottom"}>
                    
                         <Nav className="ml-auto" navbar>

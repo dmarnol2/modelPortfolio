@@ -1,3 +1,24 @@
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .name {
+    color: red;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .name {
+    color: blue;
+  }
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  .name {
+    color: green;
+  }
+}
+
+
+
 .main {
   text-align: center;
   height: 100vh;
@@ -110,7 +131,7 @@ card3{
   width:100%;
   max-width: 100%;
   margin: 0 auto;
-  background: #f9f9f9;
+  background: white;
   font-size: 24px;
   padding-bottom: 75px;
 }
