@@ -8,24 +8,73 @@
 }
 
 
+.image {
+  height: 35vw;
+  width: 35vw;
+  font-size: 25px;
+  background: whitesmoke;
+  margin: 1vw;
+  display: inline-block;
+  line-height: 10vw; 
+}
+
+
 @media screen and (max-width: 320px) {
   /* comes into effect for screens less than or equal to 320 pixels */
-  .name {
-    color: red;
+  .image {
+    height: 35vw;
+    width: 35vw;
+    font-size: 25px;
+    background: whitesmoke;
+    margin: 1vw;
+    display: inline-block;
+    line-height: 10vw; 
   }
+ 
 }
 @media screen and (min-width: 321px) and (max-width: 480px) {
   /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-  .name {
-    color: blue;
+  .image {
+    height: 90vw;
+    width: 70vw;
+    font-size: 25px;
+    background: whitesmoke;
+    margin: 1vw;
+    display: inline-block;
+    line-height: 10vw;
+    margin-top: 25px; 
   }
+
 }
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
-  .name {
-    color: green;
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .image {
+    height: 90vw;
+    width: 70vw;
+    font-size: 25px;
+    background: whitesmoke;
+    margin: 1vw;
+    display: inline-block;
+    line-height: 10vw;
+    margin-top: 25px; 
   }
+
 }
+/* @media screen and (min-width: 481px) {
+ 
+  .image {
+    height: 90vw;
+    width: 35vw;
+    font-size: 25px;
+    background: whitesmoke;
+    margin: 1vw;
+    display: inline-block;
+    line-height: 10vw; 
+    margin-top: 25px;
+  }
+ 
+} */
 
 
 
@@ -55,15 +104,6 @@
 
 
 
-.image {
-  height: 35vw;
-  width: 35vw;
-  font-size: 25px;
-  background: whitesmoke;
-  margin: 1vw;
-  display: inline-block;
-  line-height: 10vw; 
-}
 
 
 .image-container {
