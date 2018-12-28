@@ -35,6 +35,7 @@ scroll(direction){
   $('.image-container').animate( { scrollLeft: pos }, 1000)
 }
 
+
   render() {
     return (
       <div className="Site">       
@@ -64,7 +65,7 @@ scroll(direction){
 
         <div className="main">
         <div className="wrapper">
-        <a className="prev" onClick={this.scroll.bind(null,-1)}>&#10094;</a>
+        <a className="prev" onMouseEnter={this.scroll.bind(null,-1)} onClick={this.scroll.bind(null,-1)}>&#10094;</a>
         <div className="image-container">
           <div className="image"><Card>
               <CardImg width="100%" src="https://picsum.photos/200/250?image=65" alt="Card image"></CardImg>

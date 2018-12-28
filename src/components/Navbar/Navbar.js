@@ -8,19 +8,39 @@ import {
 class Navi extends Component{
    constructor(props){
        super(props);
+       this.toggleNavbar = this.toggleNavbar.bind(this);
+       this.toggle = this.toggle.bind(this);
+       this.state = {
+           collapsed:true,
+           isOpen: false
+       };
+   }
 
+   toggleNavbar(){
+       this.setState({
+           collapsed: !this.state.collapsed
+       });
+   }
+
+   toggle(){
+       this.setState({
+           isOpen: !this.state.isOpen
+       })
    }
     render(){
         return(
             <div>
-                <Navbar className="navbar-light" expand="md" fixed={"top"}>
-                    <NavbarBrand href="/"></NavbarBrand>
+                {/* <Navbar className="navbar-light" expand="md" fixed={"top"}> */}
+                    <Navbar color="light" light fixed={"top"} expand="md">
+                    <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
-                    {/* <Collapse isOpen={this.state.isOpen} navbar> */}
+                    {/* <NavbarToggler onClick={this.toggleNavbar} className="mr-2"/> */}
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                    {/* <Collapse isOpen={this.state.collapsed} navbar> */}
                         <Nav className="ml-auto" navbar>
                             <NavItem><NavLink href="/components/">Link</NavLink></NavItem>
                             <NavItem><NavLink href="#">Another Link</NavLink></NavItem>
-                            <UncontrolledDropdown nav inNavbar>
+                            {/* <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>Dropdown</DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>Option 1</DropdownItem>
@@ -28,9 +48,9 @@ class Navi extends Component{
                                     <DropdownItem divider/>
                                     <DropdownItem>Another Option</DropdownItem>
                                 </DropdownMenu>
-                            </UncontrolledDropdown>
+                            </UncontrolledDropdown> */}
                         </Nav>
-                    {/* </Collapse> */}
+                    </Collapse>
                 </Navbar>
             </div>
         );
