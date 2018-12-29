@@ -25,14 +25,22 @@ class Footer extends Component{
                         <NavItem>
                     <Grid  >
             <Row >
-              <Col sm="12" md="12" lg="12" >
+              {/* <Col sm={1} md={1}  > */}
               <SocialIcon  network="instagram" color="#512d30"></SocialIcon>
-              <SocialIcon network="facebook" color="#685153"></SocialIcon>  
+              {/* </Col>
+              <Col sm={1} md={1} lg={2} > */}
+              <SocialIcon network="facebook" color="#685153"></SocialIcon> 
+              {/* </Col> 
+              <Col sm={1} md={1} lg={2} > */}
               <SocialIcon network="snapchat" color="#8e696c"></SocialIcon>    
+              {/* </Col> 
+              <Col sm={1} md={1} lg={2} > */}
               <SocialIcon network="youtube" color="#756667"></SocialIcon>
+              {/* </Col> 
+              <Col sm={1} md={1} lg={2} > */}
               <SocialIcon network="twitter" color="#847c7d"></SocialIcon>
 
-              </Col>
+              {/* </Col> */}
               
             </Row>
             </Grid>

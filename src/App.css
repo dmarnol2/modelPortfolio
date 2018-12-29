@@ -7,6 +7,15 @@
   padding-left: 40px;
 }
 
+.parallaxContainer{
+  width:100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background: white;
+  font-size: 24px;
+  padding-bottom: 75px;
+}
+
 
 .image {
   height: 35vw;
@@ -46,19 +55,51 @@
     flex-direction: column;
     justify-content: space-around;
   }
+  .parallaxContainer{
+    width:100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+    font-size: 24px;
+    padding-bottom: 100px;
+  }
+  .name{
+    display:flex;
+    font-family: "MarzoW00-Regular", fantasy;
+    letter-spacing: .08em;
+    font-size: 15vw;
+    color: whitesmoke;
+    padding-left: 20px;
+  }
  
 }
 @media screen and (min-width: 321px) and (max-width: 480px) {
   /* comes into effect for screens between 321 and 480 pixels (inclusive) */
   .image {
-    height: 90vw;
-    width: 70vw;
+    height: 50vw;
+    width: 40vw;
     font-size: 25px;
     background: whitesmoke;
     margin: 1vw;
     display: inline-block;
     line-height: 10vw;
     margin-top: 25px; 
+  }
+  .parallaxContainer{
+    width:100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+    font-size: 24px;
+    padding-bottom: 125px;
+  }
+  .name{
+    display:flex;
+    font-family: "MarzoW00-Regular", fantasy;
+    letter-spacing: .08em;
+    font-size: 15vw;
+    color: whitesmoke;
+    padding-left: 20px;
   }
 
 }
@@ -74,6 +115,22 @@
     display: inline-block;
     line-height: 10vw;
     margin-top: 25px; 
+  }
+  .parallaxContainer{
+    width:100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+    font-size: 24px;
+    padding-bottom: 125px;
+  }
+  .name{
+    display:flex;
+    font-family: "MarzoW00-Regular", fantasy;
+    letter-spacing: .08em;
+    font-size: 15vw;
+    color: whitesmoke;
+    padding-left: 20px;
   }
 
 }
@@ -187,14 +244,7 @@ card3{
   padding-left: 10px;
 }
 
-.parallaxContainer{
-  width:100%;
-  max-width: 100%;
-  margin: 0 auto;
-  background: white;
-  font-size: 24px;
-  padding-bottom: 75px;
-}
+
 
 .parallax{
   background: url("./images/female-portrait-2310553_1920.jpg") no-repeat center;
