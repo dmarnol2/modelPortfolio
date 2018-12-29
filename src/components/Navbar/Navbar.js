@@ -4,6 +4,7 @@ import {
     NavbarBrand, Nav, NavItem, NavLink,
     UncontrolledDropdown, DropdownToggle,
     DropdownMenu, DropdownItem } from 'reactstrap';
+    import './style.css'
 
 class Navi extends Component{
    constructor(props){
@@ -30,16 +31,16 @@ class Navi extends Component{
     render(){
         return(
             <div>
-                {/* <Navbar className="navbar-light" expand="md" fixed={"top"}> */}
-                    <Navbar color="light" light fixed={"top"} expand="md">
+                <Navbar className="navbar-light" expand="md" fixed={"top"}>
+                    {/* <Navbar color="light" fixed={"top"} expand="md"> */}
                     <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     {/* <NavbarToggler onClick={this.toggleNavbar} className="mr-2"/> */}
                     <Collapse isOpen={this.state.isOpen} navbar>
                     {/* <Collapse isOpen={this.state.collapsed} navbar> */}
                         <Nav className="ml-auto" navbar>
-                            <NavItem><NavLink href="/components/">Link</NavLink></NavItem>
-                            <NavItem><NavLink href="#">Another Link</NavLink></NavItem>
+                            <NavItem><NavLink href="#" className="navText">Link</NavLink></NavItem>
+                            <NavItem><NavLink href="#" className="navText">Another Link</NavLink></NavItem>
                             {/* <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>Dropdown</DropdownToggle>
                                 <DropdownMenu right>
