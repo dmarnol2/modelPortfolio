@@ -44,14 +44,14 @@ scroll(direction){
         <div className="Site-content"></div>
         <div className = "parallaxContainer">
           <div className = "parallax">
-            {/* <Grid fluid>
+            <Grid fluid>
               <Row>
                 <Col xs={5} md={5} lg={5}><h2 className="name">Meredith</h2></Col>
               </Row>
               <Row>
                 <Col xs={5} md={5} lg={5}><h2 className="name">King</h2></Col>
               </Row>
-            </Grid> */}
+            </Grid>
             </div>
             </div>
 
